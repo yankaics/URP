@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.neau.urp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.neau.app.UrpApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.neau.urp.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.neau.urp.MainActivity"
+            android:label="@string/title_activity_main"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.neau.urp.XjxxActivity"
+            android:label="@string/title_activity_xjxx"
+            android:parentActivityName="com.neau.urp.MainActivity" />
+        <activity
+            android:name="com.neau.urp.KbActivity"
+            android:label="@string/title_activity_kb"
+            android:parentActivityName="com.neau.urp.MainActivity" />
+        <activity
+            android:name="com.neau.urp.CjActivity"
+            android:label="@string/title_activity_cj"
+            android:parentActivityName="com.neau.urp.MainActivity"
+            android:theme="@style/AppTheme.Cj" />
+        <activity
+            android:name="com.neau.urp.TzggActivity"
+            android:label="@string/title_activity_tzgg"
+            android:parentActivityName="com.neau.urp.MainActivity" />
+        <activity
+            android:name="com.neau.urp.NewsActivity"
+            android:label="@string/title_activity_news"
+            android:parentActivityName="com.neau.urp.MainActivity" />
+        <activity
+            android:name="com.neau.urp.JxpgListActivity"
+            android:label="@string/title_activity_jxpg_list"
+            android:parentActivityName="com.neau.urp.MainActivity" />
+        <activity
+            android:name="com.neau.urp.Loading"
+            android:label="@string/title_activity_loading" />
+        <activity
+            android:name="com.neau.urp.WebActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="com.neau.urp.LoginActivity" />
+        <activity
+            android:name="com.neau.urp.ChangeColorActivity"
+            android:label="@string/title_activity_change_color"
+            android:parentActivityName="com.neau.urp.MainActivity" />
+        <activity
+            android:name="com.neau.urp.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="com.neau.urp.MainActivity" />
+        <activity
+            android:name="com.neau.urp.KwglActivity"
+            android:label="@string/title_activity_kwgl"
+            android:parentActivityName="com.neau.urp.MainActivity" />
+    </application>
+
+</manifest>

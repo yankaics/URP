@@ -1,0 +1,63 @@
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="action_update">检查更新</string>
+
+    <string name="action_about">关于</string>
+    <string name="title_activity_main">东农助手</string>
+    <string name="title_activity_xjxx">学籍信息</string>
+    <string name="title_activity_xfjd">学分绩点</string>
+    <string name="title_activity_zjsj">自主实践</string>
+    <string name="title_activity_kb">本学期课表</string>
+    <string name="title_activity_cj">成绩</string>
+    <string name="mm">记住密码</string>
+    <string name="auto_login">自动登录(不建议)</string>
+    <string name="login">URP登录</string>
+    <string name="app_name">东农助手</string>
+    <string name="getData">获取数据中</string>
+    <string name="getUserData">获取用户信息中</string>
+    <string name="getDataTimeOut">获取数据超时</string>
+    <string name="webTitle">URP 综合教务系统 - 登录</string>
+    <string name="webTitleError">错误信息</string>
+    <string name="loginFail">登录失败</string>
+    <string name="loginSuccess">登录成功</string>
+    <string name="getYzmFail">获取验证码失败</string>
+    <string name="logining">正在登录...</string>
+    <string name="yzmNull">验证码为空</string>
+    <string name="doubleBack">再按一次返回退出</string>
+    <string name="back">退出</string>
+    <string name="error">我也不知道哪里出现了异常</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sbjg">尚不及格</string>
+    <string name="cbjg">曾不及格</string>
+    <string name="noSuch">暂无数据</string>
+    <string name="title_activity_content">URP登录</string>
+    <string name="title_success">学分制综合教务</string>
+    <string name="getBjg">获取不及格成绩中</string>
+    <string name="getJg">获取及格成绩中</string>
+    <string name="cj">成绩查询</string>
+    <string name="bxqkb">学期课表</string>
+    <string name="yjpj">一键评教</string>
+    <string name="tcdl">退出登录</string>
+    <string name="tzgg">通知公告</string>
+    <string name="title_activity_tzgg">通知公告</string>
+    <string name="title_activity_news">通知公告</string>
+    <string name="title_activity_jxpg_list">一键评教</string>
+    <string name="title_activity_loading">Loading</string>
+    <string name="pgnr">good</string>
+    <string name="title_activity_about">关于</string>
+    <string name="title_activity_change_color">主题选择</string>
+    <string name="other">其他</string>
+    <string name="thanks"> 感谢:\n\nJsoup\nTYUT综合教务系统</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="codeIsNull">验证码为空</string>
+    <string name="title_activity_kwgl">考务信息</string>
+
+
+    <string name="open_source">项目开源地址:\n\nhttps://github.com/V20Ea/NEAU-Assistant\n\n鸣谢\n\n东北农业大学教务系统\n\nhttp://jwc.neau.edu.cn\n\njin123d/URP\n\nhttps://github.com/jin123d/URP\n\n第三方开源库\n\nJsoup\n\nhttps://jsoup.org\n\nokhttp_okgo\n\nhttps://github.com/jeasonlzy/okhttp-OkGo\n\nbase-adapter\nhttps://github.com/hongyangAndroid/baseAdapter\n\n
+    </string>
+
+
+</resources>

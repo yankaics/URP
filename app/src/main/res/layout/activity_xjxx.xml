@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_html"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/abc_action_bar_content_inset_material"
+            android:paddingRight="@dimen/abc_action_bar_content_inset_material" />
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/img_zp"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/scrollView"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>
